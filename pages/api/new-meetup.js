@@ -20,3 +20,5 @@ async function handler(req, res) {
     res.status(201).json({ message: "Data Inserted" });
   }
 }
+
+export default handler;
